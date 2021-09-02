@@ -1,0 +1,1 @@
+#12. What is __str__(self): method?give one example?

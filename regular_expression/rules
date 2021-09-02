@@ -1,0 +1,24 @@
+# Regular Expression Rules
+
+1.  x='[abc]'       :- Either a b or c
+2.  x='[^abc]'      :- Except abc
+3.  x='[a-z]''      :- a to z(Small letters)
+4.  x='[A-Z]'       :- A to Z(Capital letters)
+5.  x='[a-zA-Z]'    :- Both lower and uppercase checked
+6.  x='[0-9]'       :- Check digits
+7.  x='[^a-zA-Z0-9]':- Special symbols
+8.  x='\s'          :- Check space
+9.  x='\d'          :- Check the digits
+10. x='\D'          :- Except digits
+11. x='\w'          :- All words except special characters
+12. x='\W'          :- For special characters
+
+# Quantifiers
+
+1. x='a+'           :- a including group
+2. x='a*'           :- count including zero number of a
+3. x='a?'           :- count a as each including zero number of a
+4. x='a{2}'         :- 2 no of a position
+5. x='a{2,3}'       :- minimum 2 a and maximum 3 a
+6. x='^a'           :- check starting with a
+7. x='a$'           :- Check ending with a
